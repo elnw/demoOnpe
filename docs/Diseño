@@ -1,0 +1,20 @@
+Arquitectura del sistema
+
+Para construir este sistema se utilizará la Arquitectura N-Capas para facilitar el manejo e inserción de los cambios requeridos por el cliente, ademas de optimizar el tiempo y los recursos requeridos para realizar los futuros mantenimientos.
+Actualmente se han contemplado 3 capas:
+-Front-End: Una primera capa de interfaz grafica donde se utilizará una plantilla de bootstrap para reducir el tiempo de maquetación de las interfaces gráficas
+-Back-End: Una segunda capa donde se albergaran las BE, las cuales se encargarán de procesar la información ingresada por el usuario
+-Base de Datos: Y la tercera capa, donde se almacenarán los datos requeridos para cumplir las funciones diseñadas para la aplicación
+
+Entidades de la Base de datos
+
+-Candidato
+
+-Distrito
+
+-Partido Politico
+
+-Usuarios
+
+
+

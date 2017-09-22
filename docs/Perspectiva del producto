@@ -1,0 +1,42 @@
+Perspectiva del producto
+
+El sistema de gestión "Onpe Web" es una plataforma desarrollada por dos alumnos de la UPC para facilitar la gestión de información sobre los diferentes candidatos políticos registrados en la institución, los cuales están almacenados en una base de datos. 
+
+Funciones del producto
+
+-Generación de estadisticas de acuerdo a los candidatos registrados por la institución
+-Gestionar la información almacenada de acuerdo a dos roles:  Administrador y candidato
+
+Caracteristicas de los usuarios
+
+Como se mencionó previamente, el sistema cuenta con dos tipos de usuarios: Administrador y Candidato. Para diferenciarlos se utiliza un sistema de credenciales, los cuales son requeridos al ingresar el sistema.
+
+-El administrador es un empleado del area de TI de Onpe, el cual se encarga de gestionar y realizar mantenimiento a la base de datos de la organización. Ademas, solo el puede crear nuevas credenciales o actualizar los datos de las mismas.
+
+El candidato es un representante de un partido político, no unico, que tiene acceso al sistema para consultar estadísticas relacionadas a los demas partidos politicos, incluido el suyo, mas no puede realizar cambios a la información mostrada.
+
+Restricciones
+
+Se consideró el uso de sesiones para mejorar la seguridad del sistema, las cuales tienen una duración de 15 minutos sin actividad. Por otro lado, es fundamental el acceso a internet para acceder a la plataforma, ya que es una plataforma web alojada en un servidor en la nube.
+
+Requisitos funcionales
+
+Requisitos funcionales de acuerdo a los tipos de usuario:
+
+Administrador
+
+-RQ01: El sistema le permite al Administrador gestionar la información de las tablas maestras de la base de datos
+-RQ02: El sistema le permite al Administrador crear nuevas credenciales para un Candidato
+-RQ03: El sistema le permite al Administrador desactivar las credenciales de un Candidato
+-RQ04: El sistema le permite al Administrador identificarse para cargar su configuracion personal
+
+
+Candidato
+
+-RQ05: El sistema le permite al Candidato consultar información sobre las tablas maestras de la base de datos
+-RQ06: El sistema le permite al Candidato identificarse para cargar su configuracion personal
+
+
+Requisitos No Funcionales
+
+El sistema debe poder funcionar al 90% de capacidad para garantizar la maxima disponibilidad posible a los candidatos en vista a las elecciones.

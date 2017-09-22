@@ -2,3 +2,8 @@ Plan de pruebas
 
 
 Para este proyecto se contemplarán pruebas unitarias sobre el comportamiento de las funciones básicas del sistema, las cuales servirán para encontrar errores o "bugs" en la aplicación
+
+Se plantearan:
+1) pruebas unitarias
+2) pruebas de integracion
+3) Pruebas de stress
